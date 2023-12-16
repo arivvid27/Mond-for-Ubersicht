@@ -188,10 +188,8 @@ update: (output, domEl) ->
 
 
 zeroFill: (value) ->
-  if value < 10
-    return value.toString()
-  else
-    return ('0' + value).slice(-2)
+  return ('0' + value).slice(-2)
+
 
 
 getDate: () ->
